@@ -14,5 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth');
 });
+Route::get('/signup', function () {
+    return view('auth');
+});
+Route::get('/resetpassword', function () {
+    return view('auth');
+});
+Route::get('/admin', function () {
+    return view('ap-client');
+});
+
