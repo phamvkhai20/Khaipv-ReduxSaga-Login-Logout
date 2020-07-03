@@ -4,7 +4,7 @@ namespace App\Services;
 
 use App\Repositories\AppRepository;
 
- class BaseService
+class BaseService
 {
     protected $repository;
 
