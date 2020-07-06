@@ -1,6 +1,8 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import RouterAuth from "./router/router";
+import { Provider } from "react-redux";
+import { store } from "../../rootSaga";
 
 function Auth() {
     return (
@@ -16,12 +18,15 @@ function Auth() {
                                 <div className="m-login__wrapper">
                                     <div className="m-login__logo">
                                         <a href="#">
-                                            <img src="assets/app/media/img/logos/logo-2.png" />
+                                            <img src="assets/app/media/img/logos/logoFpoly.png" />
                                         </a>
                                     </div>
-                                    <Suspense fallback={<div>Loading...</div>}>
-                                        <RouterAuth />
-                                    </Suspense>
+                                    <Provider store={store}>
+                                        <Suspense fallback={<div>Loading...</div>}>
+                                            <RouterAuth />
+                                        </Suspense>
+                                    </Provider>
+                                    
                                     <div className="m-stack__item m-stack__item--center"></div>
                                 </div>
                             </div>
@@ -45,7 +50,6 @@ function Auth() {
         </div>
     );
 }
-
 export default Auth;
 
 if (document.getElementById("auth")) {

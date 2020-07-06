@@ -39,7 +39,7 @@
 	</head>
     <body  class="m--skin- m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
         
-        <div id="ap-client"></div>
+        <div id="student-client"></div>
         <script src="{{asset('dist/app.js')}}"></script>
             
 			<!--begin::Global Theme Bundle -->
