@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html lang="en" class="wf-poppins-n3-active wf-poppins-n4-active wf-poppins-n5-active wf-poppins-n6-active wf-poppins-n7-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-roboto-n6-active wf-roboto-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Laravel</title>
+
+        <!-- Fonts -->
+        <link href="./ưqewqewq_files/css" rel="stylesheet">
+		<script src="./ưqewqewq_files/tfjs@0.9.0"></script>
+<!-- Load the coco-ssd model. -->
+		<script src="./ưqewqewq_files/coco-ssd@1.1.0"></script>
+
+        <meta name="description" content="Latest updates and statistic charts">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+		<!--begin::Web font -->
+		<script src="./ưqewqewq_files/webfont.js"></script>
+		<link rel="stylesheet" href="./ưqewqewq_files/css(1)" media="all"><script>
+			WebFont.load({
+            google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+          });
+        </script>
+
+		<!--end::Web font -->
+
+		<!--begin::Global Theme Styles -->
+		<link href="./ưqewqewq_files/vendors.bundle.css" rel="stylesheet" type="text/css">
+
+		<!--RTL version:<link href="../../../assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+		<link href="./ưqewqewq_files/style.bundle.css" rel="stylesheet" type="text/css">
+
+		<!--RTL version:<link href="../../../assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+		<!--end::Global Theme Styles -->
+		<link rel="shortcut icon" href="./ưqewqewq_files/logo.png">
+    <style type="text/css">span.im-caret {
+    -webkit-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        border-right-color: black;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+@-webkit-keyframes blink {
+    from, to {
+        border-right-color: black;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+span.im-static {
+    color: grey;
+}
+
+div.im-colormask {
+    display: inline-block;
+    border-style: inset;
+    border-width: 2px;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+div.im-colormask > input {
+    position: absolute;
+    display: inline-block;
+    background-color: transparent;
+    color: transparent;
+    -webkit-appearance: caret;
+    -moz-appearance: caret;
+    appearance: caret;
+    border-style: none;
+    left: 0; /*calculated*/
+}
+
+div.im-colormask > input:focus {
+    outline: none;
+}
+
+div.im-colormask > input::-moz-selection{
+    background: none;
+}
+
+div.im-colormask > input::selection{
+    background: none;
+}
+div.im-colormask > input::-moz-selection{
+    background: none;
+}
+
+div.im-colormask > div {
+    color: black;
+    display: inline-block;
+    width: 100px; /*calculated*/
+}</style><link rel="stylesheet" href="./ưqewqewq_files/css(1)" media="all"><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><script charset="utf-8" src="./ưqewqewq_files/0.js"></script><style type="text/css">span.im-caret {
+    -webkit-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        border-right-color: black;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+@-webkit-keyframes blink {
+    from, to {
+        border-right-color: black;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+span.im-static {
+    color: grey;
+}
+
+div.im-colormask {
+    display: inline-block;
+    border-style: inset;
+    border-width: 2px;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+div.im-colormask > input {
+    position: absolute;
+    display: inline-block;
+    background-color: transparent;
+    color: transparent;
+    -webkit-appearance: caret;
+    -moz-appearance: caret;
+    appearance: caret;
+    border-style: none;
+    left: 0; /*calculated*/
+}
+
+div.im-colormask > input:focus {
+    outline: none;
+}
+
+div.im-colormask > input::-moz-selection{
+    background: none;
+}
+
+div.im-colormask > input::selection{
+    background: none;
+}
+div.im-colormask > input::-moz-selection{
+    background: none;
+}
+
+div.im-colormask > div {
+    color: black;
+    display: inline-block;
+    width: 100px; /*calculated*/
+}</style><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+    <body class="m--skin- m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+        
+        <div id="root"></div>
+        <script src="./ưqewqewq_files/app.js"></script>
+            
+		<!--begin::Global Theme Bundle -->
+		<script src="./ưqewqewq_files/vendors.bundle.js" type="text/javascript"></script>
+		<script src="./ưqewqewq_files/scripts.bundle.js" type="text/javascript"></script>
+
+		<!--end::Global Theme Bundle -->
+
+		<!--begin::Page Scripts -->
+		<script src="./ưqewqewq_files/login.js" type="text/javascript"></script>
+
+		<!--end::Page Scripts -->
+    
+
+
+
+    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Laravel</title>
+
+        <!-- Fonts -->
+        <link href="./ưqewqewq_files/css" rel="stylesheet">
+
+        <meta name="description" content="Latest updates and statistic charts">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+		<!--begin::Web font -->
+		<script src="./ưqewqewq_files/webfont.js"></script>
+		<script>
+			WebFont.load({
+            google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+          });
+        </script>
+
+		<!--end::Web font -->
+
+		<!--begin::Global Theme Styles -->
+		<link href="./ưqewqewq_files/vendors.bundle.css" rel="stylesheet" type="text/css">
+
+		<!--RTL version:<link href="../../../assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+		<link href="./ưqewqewq_files/style.bundle.css" rel="stylesheet" type="text/css">
+
+		<!--RTL version:<link href="../../../assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+		<!--end::Global Theme Styles -->
+		<link rel="shortcut icon" href="http://127.0.0.1:8000/assets/demo/default/media/img/logo/favicon.ico">
+    
+    
+        
+        <div id="auth"><div><div class="m-grid m-grid--hor m-grid--root m-page"><div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-grid--tablet-and-mobile m-grid--hor-tablet-and-mobile m-login m-login--1 m-login--signin" id="m_login"><div class="m-grid__item m-grid__item--order-tablet-and-mobile-2 m-login__aside"><div class="m-stack m-stack--hor m-stack--desktop"><div class="m-stack__item m-stack__item--fluid"><div class="m-login__wrapper"><div class="m-login__logo"><a href="http://127.0.0.1:8000/#"><img src="./ưqewqewq_files/logo.png"></a></div><div><div class="m-login__signin"><div class="m-login__head"><h3 class="m-login__title">Sign In To Admin</h3></div><div class="form-group m-form__group"><input class="form-control m-input" type="text" placeholder="Email" name="email" autocomplete="off" value=""></div><div class="form-group m-form__group"><input class="form-control m-input m-login__form-input--last" type="password" placeholder="Password" name="password" value=""></div><div class="row m-login__form-sub"><div class="col m--align-left"><label class="m-checkbox m-checkbox--focus"><input type="checkbox" name="remember"> Remember me<span></span></label></div><div class="col m--align-right"><a href="http://127.0.0.1:8000/forgotpassword">Forgot password ?</a></div></div><div class="m-login__form-action"><button id="m_login_signin_submit" class="btn btn-focus m-btn m-btn--pill m-btn--custom m-btn--air">Sign In</button></div></div></div><div class="m-stack__item m-stack__item--center"></div></div></div></div></div><div class="m-grid__item m-grid__item--fluid m-grid m-grid--center m-grid--hor m-grid__item--order-tablet-and-mobile-1	m-login__content m-grid-item--center" style="background-image: url(&quot;../../../assets/app/media/img//bg/bg-4.jpg&quot;);"><div class="m-grid__item"><h3 class="m-login__welcome">Join Our Community</h3></div></div></div></div></div></div>
+        <script src="./ưqewqewq_files/app.js"></script>
+            
+		<!--begin::Global Theme Bundle -->
+		<script src="./ưqewqewq_files/vendors.bundle.js" type="text/javascript"></script>
+		<script src="./ưqewqewq_files/scripts.bundle.js" type="text/javascript"></script>
+
+		<!--end::Global Theme Bundle -->
+
+		<!--begin::Page Scripts -->
+		<script src="./ưqewqewq_files/login.js" type="text/javascript"></script>
+
+		<!--end::Page Scripts -->
+    
+
+<iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;" src="./ưqewqewq_files/saved_resource.html"></iframe><div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div></body></html>

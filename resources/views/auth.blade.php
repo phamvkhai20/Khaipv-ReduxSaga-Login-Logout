@@ -39,7 +39,7 @@
     <body  class="m--skin- m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
         
         <div id="root"></div>
-        <script src="dist/app.js"></script>
+        <script src="{{asset('dist/app.js')}}"></script>
             
 		<!--begin::Global Theme Bundle -->
 		<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
